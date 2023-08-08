@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) and (max-height: 300px) {
+
+}
+
+#text {
+    position: relative;
+    top: 100px;
+    left: 580px;
+    width: 100px;
+    color: #fafafa;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text:hover {
+    cursor: default;
+}
+
+#input-1, #input-2 {
+    position: relative;
+    top: 140px;
+    left: 340px;
+    border: none;
+    height: 37px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+}
+
+#input-1, #input-2::-webkit-input-placeholder {
+    text-align: center;
+}
+
+#plus {
+    position: relative;
+    left: 459px;
+    top: 150px;
+    background-color: rgb(12, 182, 35);
+    color: #222;
+    height: 42px;
+    width: 230px;
+    display: block;
+    font-size: 27px;
+    border: none;
+    border-radius: 10px;
+}
+
+#minus {
+    position: relative;
+    left: 695px;
+    top: 108px;
+    background-color: rgb(219, 66, 66);
+    color: #222;
+    height: 42px;
+    width: 230px;
+    display: block;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#multiply {
+    position: relative;
+    left: 459px;
+    top: 117px;
+    background-color: rgb(219, 66, 66);
+    color: #222;
+    height: 42px;
+    width: 230px;
+    display: block;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;  
+    line-height: 55px;
+}
+
+#division {
+    position: relative;
+    left: 695px;
+    top: 75px;
+    background-color: rgb(12, 182, 35);
+    color: #222;
+    height: 42px;
+    width: 230px;
+    display: block;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#equal {
+    position: relative;
+    background-color: rgb(128, 228, 228);
+    left: 460px;
+    top: 85px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 465px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px; 
+}
+
+#answer {
+    position: relative;
+    background-color: #fafafa;
+    left: 460px;
+    top: 96px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    width: 465px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#result {
+    background-color: #fafafa;
+}
+
+#plus:hover, #division:hover {
+    background-color: rgb(10, 165, 31);
+    cursor: pointer;
+}
+
+#minus:hover, #multiply:hover {
+    background-color: rgb(197, 60, 60);
+    cursor: pointer;
+}
+
+#equal:hover {
+    background-color: rgb(118, 206, 206);
+    cursor: pointer;
+}
+
+#plus:active, #division:active {
+    background-color: rgb(10, 141, 27);
+}
+
+#multiply:active, #minus:active {
+    background-color: rgb(175, 51, 51);
+}
+
+#equal:active {
+    background-color: rgb(107, 185, 185);
+}
